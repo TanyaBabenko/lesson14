@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+.header {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.header h1 {
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    color: #6495ed;
+}
+.header > p {
+    text-align: center;
+    color: cornflowerblue;
+}
+.box_job {
+    width: 70%;
+    height: 500px;
+    background-color: rgb(78, 98, 134);
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+border: 4px groove rgb(54, 69, 95);
+}
+.box_job h2 {
+    margin-left: 10px;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(255, 255, 255);
+}
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box .container_job {
+    width: 250px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.box_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid white;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+.container_job i {
+    margin: 10px 10px;
+    font-size: 15px;
+}
+.box_inner a {
+    text-decoration: none;
+    border: 2px ridge white;
+    background-color: royalblue;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+.box_inner p {
+    color: white;
+    font-family: 'Ceviche One', cursive;
+}
+.project_box {
+    width: 70%;
+    height: 500px;
+    background-color: mediumslateblue;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 4px groove slateblue ;
+}
+.project_box h2 {
+    margin-left: 10px;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(255, 255, 255);
+}
+input {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    
+}
+input:before {
+    content: "" ;
+    position: fixed;
+    background: url(./img/1587719791_1.jpg) ;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 12px;
+    right: 10%;
+    cursor: pointer;
+}
+input:checked + .header {
+    background-color: darkslateblue;
+    color: white;
+}
+input:checked + .header .box_job {
+    background-color: rgb(25, 26, 28);
+    border: 2px solid white;
+}
+input:checked + .header .project_box {
+    background-color: rgb(25, 26, 28);
+    border: 2px solid white;
+}
+input:checked + .header .container_job {
+    background-color: rgb(49, 52, 69);
+}
+input:checked + .header .box_inner a {
+    background-color: rgb(78, 98, 134);
+}
+input:checked + .header h1 {
+    color: white;
+}
+input:checked + .header p {
+    color: white;
+}

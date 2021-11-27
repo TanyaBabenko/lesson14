@@ -1,0 +1,85 @@
+.mother {
+    background-color: aqua;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+.mother div {
+width: 100%;
+height: 100px;
+}
+.child1 {
+background-color: darkgray;
+}
+.child2 {
+    background-color: darkkhaki;
+}
+.mother1 {
+    background-color: darkorange;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+.mother1 div {
+    width: 100%;
+    height: 100px;
+}
+.snickers1 {
+    display: flex;
+}
+.snickers1 div {
+width: 200px;
+height: 100%;
+}
+.sn {
+background-color: rgb(255, 238, 0);
+}
+.sn1 {
+background-color: darkred;
+}
+.sn2 {
+background-color: darksalmon;
+}
+.snickers2 {
+    display: flex;
+}
+.snickers2 div {
+    width: 50%;
+    height: 100%;
+}
+.frame {
+    background-color: darkslategrey;
+}
+.frame1 {
+    background-color: dimgray;
+}
+.mother2 {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(51, 0, 0);
+    justify-content: space-evenly;
+}
+.mother2 div {
+    height: 200px;
+    width: 200px;
+}
+.mtr {
+    background-color: dodgerblue;
+margin-top: 100px;
+margin-bottom: 100px;
+margin: auto;
+}
+.mtr1 { 
+    background-color: forestgreen;
+margin-top: 100px;
+margin-bottom: 100px;
+margin: auto;
+}
+.mtr2 {
+background-color: fuchsia;
+margin-top: 100px;
+margin-bottom: 100px;
+margin: auto;
+}

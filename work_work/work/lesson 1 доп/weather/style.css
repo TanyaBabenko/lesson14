@@ -1,0 +1,19 @@
+.head {
+    background-color: cadetblue;
+}
+img {
+    width: 200px;
+    height: 100px;
+}
+table {
+border: 3px
+inset darkcyan;
+margin: auto;
+}
+h2 {
+    text-align: center;
+}
+.degrees {
+    text-align: center;
+    color: darkcyan;
+}

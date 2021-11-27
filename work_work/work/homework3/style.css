@@ -1,0 +1,99 @@
+body {
+    background-color: blanchedalmond;
+}
+.box_fonts {
+    height: 150px;
+    width: 500px;
+    background-color: rgb(0, 0, 50);
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+    transition: all 1s;
+}
+.box_fonts:hover {
+    width: 100%;
+}
+h4 {
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.box_wrapper {
+    height: 200px;
+    width: 100%;
+display: flex;
+background-color: rgb(0, 0, 50);
+align-items: center;
+margin-top: 30px;
+border-radius: 25px;
+}
+.box_wrapper div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(207, 184, 219);
+    transform: skew(50deg);
+    margin-left: 50px;
+    margin: auto;
+    text-align: center;
+    animation: skew 4s infinite;
+}
+@keyframes skew {
+    0% {
+        transform: skewX(50deg);
+    }
+    50% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: skewX(50deg);
+    }
+}
+.box_objects {
+    height: 350px;
+    width: 1200px;
+   /* border: solid black; */
+   display: flex;
+}
+.box_objects .item {
+   /* border: solid black; */
+    width: 400px;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.pic {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.box_universes {
+    height: 630px;
+    width: 80%;
+  /*  border: solid black; */
+}
+.box_universes .item {
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+   /* border: solid black; */
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.logo {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.desc {
+    width: 70%;
+    height: 100%;
+    padding-left: 15px;
+}

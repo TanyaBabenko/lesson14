@@ -1,0 +1,27 @@
+table {
+    border: 4px ridge rgb(128, 128, 0);
+    background-color: yellowgreen;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+th {
+    background-color: rgb(100, 150, 0);
+    color: white;
+}
+h1 {
+    color: olive;
+    text-align: center;
+}
+td {
+    color: rgb(53, 34, 0);
+}
+.head {
+    background: olive;
+    background: linear-gradient(90deg, rgb(155, 155, 28) 0%, rgb(192, 192, 0) 35%, rgb(255, 255, 0) 100%);
+    color: rgb(53, 34, 0);
+}
+body {
+    background-color: rgb(172, 194, 129);
+}

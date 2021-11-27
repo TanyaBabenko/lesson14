@@ -1,0 +1,25 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.text img {
+    max-width: 100%;
+
+}
+.text_2 {
+    background-color: rgb(103, 131, 103);
+width: 400px;
+height: 200px;
+overflow: hidden;
+margin: auto;
+transition: all 0.5s;
+}
+.text_2:hover {
+    width: 500px;
+    height: 400px;
+background-color: cornflowerblue;
+}
+.fa-apple-pay {
+    color: white;
+    font-size: 50px;
+}

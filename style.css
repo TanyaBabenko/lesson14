@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.global {
+    padding-top: 50px;
+}
+.header {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+   /* margin-top: 50px; */
+}
+.header_inner {
+    width: 100%;
+border: 1px solid black;
+border-radius: 20px;
+-webkit-box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71); 
+box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71);
+
+}
+.top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+.logo_top a {
+    text-decoration: none;
+    font-size: 40px;
+    color: cornflowerblue;
+    font-family: 'Ceviche One', cursive;
+}
+.menu_top a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+.menu_top a:hover {
+    color: rgb(78, 98, 134);
+    border-bottom: 1px solid rgb(78, 98, 134);
+}
+.text_header {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding: 100px 0;
+}
+.text_header h1{
+    color: rgb(78, 98, 134);
+    font-size: 50px;
+    font-family: 'Ceviche One', cursive;
+}
+span {
+    color: black;
+    font-family: 'Ceviche One', cursive;
+}
+.text_header p{
+    color:cornflowerblue;
+    font-size: 25px;
+}
+.header_knopka {
+    width: 100%;
+    height: 30%;
+    margin-top: 70px;
+}
+.knopka {
+    text-decoration: none;
+    border: 1px solid rgb(78, 98, 134);
+    padding: 13px 60px;
+    color: rgb(78, 98, 134);
+    font-family: 'Ceviche One', cursive;
+    transition: all 0.2s;
+}
+.knopka:hover {
+    background-color: rgb(78, 98, 134);
+    color: white;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main_inner {
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid black;
+border-radius: 20px;
+margin-top: 20px;
+-webkit-box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71); 
+box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71);
+
+}
+.sidebar {
+    width: 250px;
+    height: 600px;
+    background-color: rgb(78, 98, 134);
+    border-radius: 20px 0 0 20px;
+    margin-left: -1px;
+}
+.content {
+    width: 900px;
+    height: 600px;
+  /*  background-color: white; */
+display: flex;
+align-items: center;
+}
+.sidebar div {
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-bottom: 2px solid white;
+}
+.a_box a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.info {
+    width: 600px;
+    height: 300px;
+    background: url(./img/Без\ названия21_20211106131935.png);
+    padding: 100px 80px;
+    border-radius: 20px;
+
+}
+.knopka_2 {
+    text-decoration: none;
+   /* border: 1px solid rgb(78, 98, 134); */
+    border-radius: 20px;
+    padding: 13px 60px;
+    color: rgb(78, 98, 134);
+    margin-top: 100px;
+    background-color: white;
+    font-family: 'Ceviche One', cursive;
+    transition: all 0.2s;
+}
+.knopka_2:hover {
+    background-color: rgb(78, 98, 134);
+    color: white;
+
+}
+.footer {
+    width: 100%;
+    height: 100%;
+}
+.footer_inner {
+width: 100%;
+height: 100px;
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+border: 1px solid black;
+border-radius: 20px;
+    -webkit-box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71); 
+box-shadow: 2px -4px 10px 5px rgba(0,0,0,0.71);
+
+}
+.icon i {
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(78, 98, 134);
+    
+}
+input {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    
+}
+input:before {
+    content: "" ;
+    position: fixed;
+    background: url(./img/1587719791_1.jpg) ;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 12px;
+    right: 0;
+    cursor: pointer;
+}
+input:checked + .global {
+    background-color: darkslateblue;
+}
+input:checked + .global .header_inner {
+    background-color: rgb(25, 26, 28);
+}
+input:checked + .global .header_inner .menu_top a {
+    color: rgb(78, 98, 134);
+}
+input:checked + .global .header_inner .logo_top a {
+    color: lightsteelblue;
+}
+input:checked + .global .header_inner span {
+    color: white;
+}
+input:checked + .global .header_inner p {
+    color: lightsteelblue;
+}
+input:checked + .global .main_inner {
+    background-color: rgb(25, 26, 28);
+}
+input:checked + .global .info {
+    background: url(./img/Без\ названия21_20211110184503.png);
+}
+input:checked + .global .sidebar {
+    background-color: rgb(49, 52, 69);
+}
+input:checked + .global .sidebar a{
+    color: lightsteelblue;
+}
+input:checked + .global .sidebar div {
+border-bottom: 2px solid lightsteelblue;
+}
+input:checked + .global .footer_inner {
+    background-color: rgb(25, 26, 28);
+}
+input:checked + .global .footer_inner i {
+    color: lightsteelblue;
+}

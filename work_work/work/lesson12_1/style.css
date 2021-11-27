@@ -1,0 +1,53 @@
+.wrapper {
+    width: 1000px;
+    height: 1000px;
+    border: solid red;
+    margin: 0 auto;
+}
+.box_wrapper1 {
+    line-height: 100%;
+    background-color: cornflowerblue;
+    height: 50px;
+}
+.box_wrapper2 {
+    line-height: 100%;
+    background-color: royalblue;
+    height: 50px;
+position: sticky;
+left: 0;
+top: 0;
+}
+.box_wrapper3 {
+    line-height: 100%;
+    background-color: skyblue;
+    height: 50px;
+}
+.box_tilda {
+    max-width: 1200px;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+ul li {
+    margin: 0 0 10px 20px;
+    position: relative;
+    padding: 0 0 0 15px;
+}
+ul li:before {
+content: "";
+background-color: red;
+width: 10px;
+height: 10px;
+position: absolute;
+left: 0;
+top: 5px;
+border-radius: 100%;
+}
+ul li {
+ list-style: none;   
+}
+ul li:after {
+    content: "" ;
+}
+/* .box_wrapper3 p {
+    position: absolute;
+} */

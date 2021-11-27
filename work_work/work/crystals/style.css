@@ -1,0 +1,23 @@
+body {
+    background-color: lightslategray;
+}
+table {
+    border: 3px;
+    inset: rgb(0, 4, 29);
+    background-color: lightgray;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.head {
+    background-color: rgb(70, 81, 92);
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}

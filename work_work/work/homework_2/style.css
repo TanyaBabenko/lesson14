@@ -1,0 +1,30 @@
+.mother {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: cadetblue;
+}
+.mtr {
+    width: 100%;
+    height: 200px;
+    padding: 25px 35px 25px 35px;
+}
+.mtr1 {
+    background-color: darkseagreen;
+    width: 775px;
+    height: 200px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.mtr2 {
+    background-color: mediumpurple;
+    width: 775px;
+    height: 175px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+i {
+    color: white;
+    font-size: 70px;
+}

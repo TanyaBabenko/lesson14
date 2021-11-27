@@ -1,0 +1,88 @@
+.mother {
+    height: 1000px;
+    width: 1000px;
+    background-color: white;
+    justify-content: space-between;
+}
+.child {
+    height: 300px;
+    width: 750px;
+    background-color: rgb(255, 255, 93);
+    margin-top: 80px;
+}
+.child2 {
+    height: 160px;
+    width: 800px;
+    background-color: rgb(140, 235, 102);
+    margin-top: 80px;
+    display: flex;
+}
+.ch1 {
+    height: 100px;
+    width: 750px;
+    background-color: red;
+}
+.ch2 {
+    height: 100px;
+    width: 750px;
+    background-color: green;
+}
+.ch3 {
+    height: 100px;
+    width: 750px;
+    background-color: blue;
+}
+.ab4 {
+    height: 100px;
+    width: 750px;
+    display: flex;
+}
+.ab1 {
+    height: 100px;
+    width: 250px;
+    background-color: red;
+}
+.ab2 {
+    height: 100px;
+    width: 250px;
+    background-color: green;
+}
+.ab3 {
+    height: 100px;
+    width: 250px;
+    background-color: blue;
+}
+.ab5 {
+    height: 100px;
+    width: 375px;
+    background-color: gray;
+}
+.ab6 {
+    height: 100px;
+    width: 375px;
+    background-color: black;
+}
+.tx1 {
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.tx2 {
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.tx3 {
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
